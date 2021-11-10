@@ -1,0 +1,146 @@
+/* mobile layout: 320px */
+@media only screen and  (max-width: 767px)
+{                      
+
+
+.container{
+	max-width: 90%;
+}
+
+.header__toggle-bar {
+		display: block;
+		font-size: 18px;
+ }
+
+
+
+.header-area__main-manu {
+	display: none;
+}
+
+.banner__box {
+	height: 90vh;
+}
+
+.banner__text {
+	text-align: center;
+}
+.banner__head-tagline {
+	font-size: 3rem;
+}
+
+.about__content{
+	display: block;
+}
+.about__content-left {
+	width: 100%;
+	text-align: center;
+}
+
+.about__h5-tagline {
+	width: 100%;
+	font-size: 14px;
+	line-height: 27px;
+}
+
+.about__p {
+	width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+}
+.blue-btn {
+	margin-bottom: 4rem;
+}
+.heading__h-1 {
+	font-size: 7rem;
+}
+.heading__h-3 {
+	font-size: 3rem;
+}
+.skill__container {
+	display: block;
+}
+.skill__container > div {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.progress-bar__name, .progress-bar__parcent {
+	font-size: 1.5rem;
+}
+
+.service__container {
+	display: block;
+}
+.service__box {
+	width: 100%;
+	margin-bottom: 25px;
+}
+.client__container {
+	display: block;
+}
+.client__box {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.work__btn {
+
+	flex-wrap: wrap;
+}
+.work__fillter {
+	margin-bottom: 20px;
+}
+.work__gallery-items {
+	display: block;
+}
+.work__pic {
+	margin-bottom: 30px;
+}
+
+.blog__container {
+	display: block;
+}
+
+.blog__box {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.contact-header__area {
+	display: block;
+}
+.contact-header__content {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.contact-main {
+	padding: 9rem 0;
+}
+
+.contact-main__form-group {
+	display: block;
+}
+.contact-main__input {
+	width: 100%;
+}
+
+.testimonial__icon {
+  position: absolute;
+  top: 0;
+}
+.testimonial__items {
+  padding-top: 50px;
+}
+
+.testimonial__pic {
+	margin-bottom: 25px;
+}
+
+.testimonial__text {
+	text-align: center;
+}
+
+
+
+
+ }
