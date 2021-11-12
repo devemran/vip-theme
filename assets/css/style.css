@@ -87,27 +87,31 @@ a{
 .header .header-area{
 	display: flex;
 	flex-flow: row wrap;
-	padding: 2rem 0;
+	padding: 1.5rem 0;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .header-area__logo{
-	font-size: 2.4rem;
 	font-weight: 700;
 	color: #505cfd;
 	font-family: nunitosans;
 
 }
+.header-area__logo-text {
+	font-size: 2.4rem;
+}
+
 .header__toggle-bar{
 	display: none;
 }
-.header-area__logo-text:active {
+.header-area__logo-h-t:active {
 	color: #505cfd;
 }
-.header-area__logo-text:visited {
+.header-area__logo-h-t:visited {
 	color: #505cfd;
 }
+
 
 .header-area__manu{
 	display: flex;
@@ -174,7 +178,9 @@ a{
   	font-size: 2.5rem;
   	color: #000;
   	text-transform: uppercase;
+  	letter-spacing: 4px;
   }
+
 
   /*================================
            ABOUT SECTION

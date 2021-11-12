@@ -83,4 +83,43 @@ $(document).ready(function(){
 
 
 
+
+  $(".header__toggle-bar").click(function(){
+
+     $(".header-area__main-manu").slideToggle(500);
+
+
+  });
+
+  
+
+
+  $('.client__h-counter').counterUp({
+      delay: 10,
+      time: 1000,
+      offset: 70,
+      beginAt: 100,
+      formatter: function (n) {
+        return n.replace(/,/g, '.');
+      }
+  });
+
+
+
+  });
+
+
+
+
+var typed = new Typed(".auto_input", {
+    strings: ["Business Man.", "seo master.", "designer", "phtograpjar"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true
+
 });
+
+
+
+
+

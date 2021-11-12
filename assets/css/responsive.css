@@ -18,6 +18,29 @@
 	display: none;
 }
 
+.header-area__main-manu ul li {
+	display: block;
+	text-align: center;
+}
+
+.header-area__main-manu {
+  position: absolute;
+  left: 0;
+  top: 62px;
+  background: #fff;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.header-area__main-manu ul {
+  display: block;
+}
+
+.header-area__main-manu ul li {
+  text-align: left;
+  line-height: 2;
+}
+
 .banner__box {
 	height: 90vh;
 }
